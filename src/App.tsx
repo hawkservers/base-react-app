@@ -5,8 +5,10 @@ import {
 import RouterService, {Route as RouteData} from './Services/RouterService';
 import Middleware, {Middleware as MiddlewareType, MiddlewareNext} from './Middleware';
 
-import './Modules';
 import './Routes';
+import './Modules';
+
+import './Styles/style.css';
 
 export default class App extends Component<unknown, { routes: RouteData[] }> {
   state = {

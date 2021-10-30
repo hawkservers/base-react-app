@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+    .input {
+        @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block;
+        @apply w-full sm:text-sm border-gray-300 rounded-md;
+    }
+}
+
+@tailwind utilities;

@@ -45,6 +45,16 @@ module.exports = {
     ],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error'],
+    'jsx-a11y/label-has-associated-control': [
+      'error',
+      {
+        labelComponents: ['label'],
+        labelAttributes: ['htmlFor'],
+        controlComponents: ['input'],
+        assert: 'htmlFor',
+        depth: 25,
+      },
+    ],
   },
   settings: {
     'import/resolver': {

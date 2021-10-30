@@ -5,6 +5,12 @@
     "jsx": "react",
     "esModuleInterop": true,
     "baseUrl": "src",
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015"
+    ]
   },
   "include": [
     "src/**/*"

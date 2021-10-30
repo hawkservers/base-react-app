@@ -6,7 +6,7 @@
     "dev": "webpack",
     "watch": "webpack --watch",
     "hot": "webpack serve --hot",
-    "lint": "eslint src/**/*"
+    "lint": "eslint --ext=.ts,.tsx src/"
   },
   "dependencies": {
     "react": "^17.0.2",
